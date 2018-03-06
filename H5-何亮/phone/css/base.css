@@ -1,0 +1,73 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img, div { 
+	margin:0;
+	padding:0; 
+	box-sizing: border-box;
+}
+ul li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border: none;
+}
+html,body{
+	height: 100%;
+}
+body{
+	display: flex;
+	flex-direction: column;
+}
+/*header*/
+header{
+	height:13.33vw;
+}
+header ul{
+	height:13.33vw;
+	display: flex;
+	justify-content:space-around;
+	align-items:center;
+}
+header ul i{
+	color:red;
+	font-size:6.4vw !important;
+}
+header ul input{
+	width:66.66vw;
+	height:7.46vw;
+	background:#f2f3f7 url(../images/2.jpg) no-repeat  30px center;
+	border:none;
+	text-align:center;
+	line-height:7.46vw;
+	color:#b2b3b5;
+}
+/*footer*/
+footer{
+	height: 13.33vw;
+	border-top:1px solid #f8f8f8;
+}
+footer ul{
+	height: 13.33vw;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+footer ul li{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color:#8f8b8c;
+}
+footer ul li i{
+	font-size: 5.6vw !important;
+}
+footer ul li span{
+	font-size: 2.4vw;
+}
+footer ul li:nth-child(1){
+	color: red;
+}
+footer ul li:hover{
+	color:red;
+}

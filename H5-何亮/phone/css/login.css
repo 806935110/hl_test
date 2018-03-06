@@ -1,0 +1,130 @@
+/*main*/
+main{
+	flex:1;
+	overflow: auto;
+
+}
+main .banner{
+	height:52vw;
+	display: flex;
+	justify-content: space-between;
+	margin:0 3vw;
+}
+main .banner .left{
+	height:52vw;
+	width:61.6vw;
+}
+main .banner .left img{
+	height:100%;
+	width:100%;
+}
+main .banner .right{
+	width:29.6vw;
+	height:52vw;
+}
+main .banner .right img{
+	height:100%;
+	width:100%;
+}
+/*main center*/
+main .center{
+	height:70vw;
+	border-bottom:1px solid #e1e1e1;
+	margin:0 3vw;
+}
+main .center .top{
+	height:13.33vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+main .center .top h2{
+	font-size:4vw;
+}
+main .center ul span{
+	font-size:4vw;
+	color:red;
+}
+main .center ul{
+	height:50vw;
+	display: flex;
+	justify-content:space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	font-size:3.06vw;
+	
+}
+main .center ul li{
+	height:27.66vw;
+	width:17.33vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+main .center ul li img{
+	height:100%;
+	width:100%;
+}
+main .center ul li i{
+	font-size:10vw;
+	
+}
+/*main center-1*/
+main .center-1{
+	height:13.33vw;
+	margin:0 3vw;
+}
+main .center-1 .top{
+	height:13.33vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+main .center-1 .top h2{
+	font-size:4vw;
+}
+main .center-1 .zhong ul{
+	height:26.66vw;
+	display: flex;
+	justify-content: space-between;
+}
+main .center-1 .zhong ul li{
+	height:26.66vw;
+	width:30vw;
+}
+main .center-1 .zhong ul li img{
+	height:100%;
+	width:100%;
+}
+main .center-1 .bottom{
+	height:9vw;
+	margin-top:1vw;
+}
+main .center-1 .bottom ul{
+	height:9vw;
+	display: flex;
+	justify-content:space-between;
+	
+}
+main .center-1 .bottom ul li{
+	height:9vw;
+	width:22.4vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+main .center-1 .bottom ul li:nth-child(1){
+	background:#f2f6dd;
+}
+main .center-1 .bottom ul li:nth-child(2){
+	background:#eafcf0;
+}
+main .center-1 .bottom ul li:nth-child(3){
+	background:#faf1e2;
+}
+main .center-1 .bottom ul li:nth-child(4){
+	background:#e4f8f9;
+}

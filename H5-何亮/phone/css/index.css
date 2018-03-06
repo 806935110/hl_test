@@ -1,0 +1,179 @@
+/*main*/
+main{
+	flex:1;
+	overflow: auto;
+}
+main .banner{
+	height:36.66vw;
+}
+main .banner img{
+	height:36.66vw;
+	width:100%;
+}
+main .center{
+	height:44vw;
+	border-bottom:1px solid #e1e1e1;
+	margin:0 15px;
+}
+main .center ul{
+	height:44vw;
+	display: flex;
+	justify-content:space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	font-size:3.06vw;
+	
+}
+main .center ul li{
+	height:18vw;
+	width:17.33vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+main .center ul li i{
+	font-size:10vw;
+	
+}
+main .center ul li:nth-child(1) i{
+	color:#f6dbca;
+}
+main .center ul li:nth-child(2) i{
+	color:#fce6db;
+}
+main .center ul li:nth-child(3) i{
+	color:#ffaebf;
+}
+main .center ul li:nth-child(4) i{
+	color:#cf7d43;
+}
+main .center ul li:nth-child(5) i{
+	color:#bfceff;
+}
+main .center ul li:nth-child(6) i{
+	color:#ffe7c2;
+}
+main .center ul li:nth-child(7) i{
+	color:#c4ccfd;
+}
+main .center ul li:nth-child(8) i{
+	color:#fedbc5;
+}
+main .center ul li:nth-child(9) i{
+	color:#d47976;
+}
+main .center ul li:nth-child(10) i{
+	color:#f8ebbe;
+}
+main .center ul li:hover{
+	border-bottom:2px solid #aaaaaa;
+}
+/*center-1*/
+main .center-1{
+	height:53.33vw;
+	border-bottom:1px solid #e1e1e1;
+	margin:0 15px;
+}
+main .center-1 .top{
+	height:13.33vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+main .center-1 .zhong ul{
+	height:26.66vw;
+	display: flex;
+	justify-content: space-between;
+}
+main .center-1 .zhong ul li{
+	height:26.66vw;
+	width:30vw;
+}
+main .center-1 .zhong ul li img{
+	height:100%;
+	width:100%;
+}
+main .center-1 .bottom{
+	height:9vw;
+	margin-top:1vw;
+}
+main .center-1 .bottom ul{
+	height:9vw;
+	display: flex;
+	justify-content:space-between;
+	
+}
+main .center-1 .bottom ul li{
+	height:9vw;
+	width:22.4vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+main .center-1 .bottom ul li:nth-child(1){
+	background:#f2f6dd;
+}
+main .center-1 .bottom ul li:nth-child(2){
+	background:#eafcf0;
+}
+main .center-1 .bottom ul li:nth-child(3){
+	background:#faf1e2;
+}
+main .center-1 .bottom ul li:nth-child(4){
+	background:#e4f8f9;
+}
+/*center-2*/
+main .center-2{
+	height:53.33vw;
+	border-bottom:1px solid #e1e1e1;
+	margin:0 15px;
+}
+main .center-2 .top{
+	height:13.33vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+main .center-2 .zhong ul{
+	height:26.66vw;
+	display: flex;
+	justify-content: space-between;
+}
+main .center-2 .zhong ul li{
+	height:26.66vw;
+	width:30vw;
+}
+main .center-2 .zhong ul li img{
+	height:100%;
+	width:100%;
+}
+main .center-2 .bottom{
+	height:9vw;
+	margin-top:1vw;
+}
+main .center-2 .bottom ul{
+	height:9vw;
+	display: flex;
+	justify-content:space-between;
+	
+}
+main .center-2 .bottom ul li{
+	height:9vw;
+	width:22.4vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+main .center-2 .bottom ul li:nth-child(1){
+	background:#f2f6dd;
+}
+main .center-2 .bottom ul li:nth-child(2){
+	background:#eafcf0;
+}
+main .center-2 .bottom ul li:nth-child(3){
+	background:#faf1e2;
+}
+main .center-2 .bottom ul li:nth-child(4){
+	background:#e4f8f9;
+}

@@ -1,0 +1,146 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img, div { margin:0; padding:0; }
+	body{
+		font-size: 12px;
+		}
+	img { border:none; }
+	ul li{ list-style:none; } 
+	a{text-decoration:none; color:black;}
+/*header*/
+.header{
+	height:83px;
+}
+.header .head{
+	height:83px;
+	width:1140px;
+	margin:0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header .head .logo{
+	height:80px;
+	width:420px;
+}
+.header .head .nav{
+	height:80px;
+	width:666px;
+	
+}
+.header .head .nav ul{
+	height:80px;
+	width:666px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header .head .nav ul li{
+	height:80px;
+	width:90px;
+	line-height:80px;
+	text-align:center;
+}
+.header .head .nav ul li:hover{
+	background:red;
+}
+.header .head .nav ul li:hover a{
+	color:white;
+}
+
+/*footer*/
+.footer{
+	height:600px;
+	background:#2e2e2e;
+}
+.footer .foot{
+	height:600px;
+	width:1140px;
+	margin:0 auto;
+}
+.footer .foot .top{
+	width:1140px;
+	height:125px;
+	text-align:center;
+	line-height:125px;
+	font-size:40px;
+	color:white;
+}
+.footer .foot .bottom{
+	width:1140px;
+	height:470px;
+}
+.footer .foot .bottom .left{
+	width:570px;
+	height:377px;
+	float:left;
+	color:white;
+}
+.footer .foot .bottom .left h5{
+	font-size:16px;
+	font-weight: normal;
+	margin-bottom:20px;
+}
+.footer .foot .bottom .left p{
+	margin-bottom:10px;
+	padding-left:10px;
+	box-sizing: border-box;
+}
+.footer .foot .bottom .left .left-1{
+	margin:20px 0;
+}
+.footer .foot .bottom .left .left-2{
+	width:184px;
+	height:100px;
+	display: flex;
+	justify-content: space-between;
+}
+.footer .foot .bottom .left .left-2 h6{
+	margin-top:20px;
+}
+.footer .foot .bottom .right{
+	width:524px;
+	height:440px;
+	float:right;
+}
+.footer .foot .bottom .right ul{
+	display: flex;
+	flex-direction: column;
+}
+.footer .foot .bottom .right ul li{
+	display: flex;
+	justify-content:flex-start;
+	margin-top:5px;
+}
+.footer .foot .bottom .right ul input{
+	width:272px;
+	height:26px;
+	background:#828282;
+	border:none;
+}
+.footer .foot .bottom .right ul textarea{
+	width:465px;
+	height:130px;
+	background:#828282;
+}
+.footer .foot .bottom .right ul button{
+	width:100px;
+	height:20px;
+	border:none;
+	background:#828282;
+	margin-top:10px;
+}
+.footer .foot .bottom .right ul p{
+	color:white;
+}
+/*footer-1*/
+.footer-1{
+	background:#191919;
+	height:40px;
+}
+.footer-1 p{
+	height:40px;
+	width:1140px;
+	margin:0 auto;
+	color:#8f8b8c;
+	line-height:40px;
+	text-align:center;
+}
